@@ -1,0 +1,43 @@
+*{
+    /* Seletor global */
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+img{
+    height: 200px;
+}
+
+#linkSocial img{
+    height: 24px;
+}
+
+#content{
+    text-align: center;
+}
+
+#perfil{
+    margin-bottom: 16px;
+
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+ul li a { 
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+}
